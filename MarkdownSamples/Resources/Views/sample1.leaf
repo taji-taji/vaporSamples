@@ -1,0 +1,8 @@
+#extend("base")
+
+#export("title") { Sample1 }
+
+#export("content") {
+    #markdown(markdown)
+}
+
